@@ -19,5 +19,7 @@ xptoCCC.com.br/v1
 
 4 = A new file was created, with some like this:
  '- http://jackpot.xpto.com.br/v1/health -> 403 =  ERR
+ 
  '- https://jackpot.xpto.com.br/v1/health -> 403 =  ERR
+ 
  '= Exposed ports: 80, 443, 8008, 8080, 8443

@@ -18,8 +18,11 @@ xptoCCC.com.br/v1
 3 - python3 main.py
 
 4 = A new file was created, with some like this:
- '- http://jackpot.xpto.com.br/v1/health -> 403 =  ERR
- 
- '- https://jackpot.xpto.com.br/v1/health -> 403 =  ERR
- 
- '= Exposed ports: 80, 443, 8008, 8080, 8443
+```
+ - http://jackpot.xpto.com.br/v1/health -> 403 =  ERR
+ - https://jackpot.xpto.com.br/v1/health -> 403 =  ERR
+ = Exposed ports: 80, 443, 8008, 8080, 8443
+
+ - http://another-url.com.br/v1/uatu/health/ping -> 301 = {"status": "pong"}
+ - https://aanother-url.com.br/v1/uatu/health/ping -> 200 = {"status": "pong"}
+ = Exposed ports: 80, 443, 8080, 12265, 15004, 20005, 27352, 28201, 44501, 49152, 49163, 57294, 64680
